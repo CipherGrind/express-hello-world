@@ -1,0 +1,35 @@
+ 
+  <div class="card flex-row d-flex flex-wrap text-center mt-5 mb-5">
+
+    <div class="card__line1 col-12 col-sm-12 col-md-3 p-3 m-0 d-flex flex-wrap align-items-center justify-content-stretch">
+      <div class="card__emoji">{%IMAGE%}</div>
+      <div class="card__title-box">
+        <h2 class="card__title">{%PRODUCTNAME%}</h2>
+      </div>
+    </div>
+    
+    <div class="card__line2 col-12 col-sm-12 col-md-6 p-3 m-0 d-flex flex-wrap align-items-center justify-content-center">
+        <div class="card__detail-box {%NOT_ORGANIC%} p-3">
+          <div class="card__detail card__detail--organic">Organic!</div>
+        </div>
+        <div class="card__detail-box p-3">
+          <div class="card__detail">{%QUANTITY%} per 📦</div>
+        </div>
+        <div class="card__detail-box p-3">
+          <div class="card__detail card__detail--price">${%PRICE%}</div>
+        </div>
+    </div>
+
+    <div class="card__line3 col-12 col-sm-12 col-md-3 p-3 m-0 d-flex flex-wrap align-items-center justify-content-evenly">
+      <div class="card__title-box">
+        <a class="card__link" href="/product?id={%ID%}">
+          <span>Detail <i class="emoji-right">👉</i></span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+
+<!--//////////-->  
+
